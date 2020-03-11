@@ -22,6 +22,19 @@ I want to address the following points in this project:
 | Prototype        	|            	|            	|
 | Singleton        	|            	|            	|
 
+* [Object-oriented programming must know](./opp-fundamentals.md)
+    * Class versus Interface Inheritance
+    * Inheritance versus Composition
+    * Inheritance versus Parameterized Types
+    * Delegation
+
+* [Introduction](./introduction.md)
+    * What is a Design Pattern?
+    * Catalog of Design Patterns
+    * How design patterns solve design problems
+    * How to select a design pattern
+    * How to use a design pattern
+
 ### :bangbang: Status
 
 This is work in progress, I'm planning to finish implementing
