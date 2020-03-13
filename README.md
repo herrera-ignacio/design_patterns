@@ -22,11 +22,10 @@ I want to address the following points in this project:
 | Prototype        	|            	|            	|
 | Singleton        	|            	|            	|
 
-* [Object-oriented programming must know](./opp-fundamentals.md)
-    * Class versus Interface Inheritance
-    * Inheritance versus Composition
-    * Inheritance versus Parameterized Types
-    * Delegation
+If you are unfamiliar with object-oriented fundamentals or
+you would like a quick refresh of some concepts as Polymorphism, Inheritance
+and Composition, you will find helpful the following summary:
+[Object-oriented programming must know concepts!](./opp-fundamentals.md)
 
 * [Introduction](./introduction.md)
     * What is a Design Pattern?

@@ -82,6 +82,30 @@ patterns describe how a group of objects cooperate to perform a task that no sin
 * Relating Run-Time and Compile-Time Structures
 * Designing for Change
 
+#### Finding Appropriate Objects
+
+The hard part about object-oriented design is decomposing a system into objects.
+Many object-oriented designs often end up with classes that have no counterparts
+in the real world. Strict modeling of the real world leads to a system that
+reflects today's realities but not necessarily tomorrow's. Abstractions that emerge
+during design are key to making a design flexible.
+
+Design patterns help you identify less-obvious abstractions and the objects that can
+capture them.
+
+#### Determining Object Granularity
+
+How do we decide what should be an object?
+
+#### Specifying Object Interfaces
+
+Design patterns help you define interfaces by identifying their key elements and the
+kinds of data that get sent across an interface. A design pattern might also tell you
+what _not_ to put in the interface.
+
+Design patterns also specify relationships between interfaces. In particular, they often
+require some classes to have similar interfaces, or they place constraints on some of their interfaces.
+
 ### How to select a design pattern
 
 The choice of programming language is important because it influences one's point of view. We assume level
