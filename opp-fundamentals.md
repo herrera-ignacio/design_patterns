@@ -9,6 +9,7 @@
 * Type
 * Polymorphism
 * Class versus Interface Inheritance
+* Programming to an Interface, not an Implementation
 * Inheritance versus Composition
 * Inheritance versus Parameterized Types
 * Delegation
@@ -16,7 +17,7 @@
 ### Class (Concrete Class)
 
 Defines object's internal data and representation, and defines the operations the
-object can perform.
+object can perform. Defines _how the object is implemented_.
 
 Objects are created by __instantiating__ a class, which allocates storage for the object's
 internal data (made up of instance variables) and associates the operations with these data.
@@ -110,3 +111,34 @@ This __substitutability__ is known as _Polymorphism_.
 It lets a client object make few assumptions about other objects beyond
 supporting a particular interface. It decouples objects from each other and lets
 them vary their relationships to each other at run-time.
+
+### Class versus Interface Inheritance (sub-typing)
+
+Class inheritance defines an object's implementation in terms of another object's implementation.
+In short, its a mechanism for code and representation sharing.
+
+Interface inheritance or _sub-typing_ describes when an object can be used in place of another.
+
+### Programming to an Interface, not an Implementation
+
+Implementation reuse is only half the story. Inheritance's ability to define families of
+objects with _identical_ interfaces (usually by inheriting from an abstract class) is also
+important. Why? Because __polymorphism depends on it__.
+
+When inheritance is used _properly_, all classes derived from an
+abstract class will share its interface. This implies that a subclass merely
+adds or overrides operations, and does not hide operations of the parent class.
+
+All subclasses can then respond to the requests in the interface of the abstract parent class,
+making them __subtypes of the abstract class__.
+
+There are two benefits to manipulating objects solely in terms of the interface defined by
+abstract classes:
+
+1. Clients remain unaware of the specific types of objects they use, as long as the
+objects adhere to the interface that client expect.
+2. Clients remain unaware of the classes that implement these objects, they only know
+about the abstract class(es) defining the interface.
+
+This so __greatly reduces implementation dependencies__ between subsystems that it leads
+to the principle: _Program to an interface, not an implementation_.

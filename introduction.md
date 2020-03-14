@@ -114,6 +114,11 @@ require some classes to have similar interfaces, or they place constraints on so
 
 #### Specifying Object Implementations
 
+By abstracting the process of object creation, the design patterns give you
+different ways to associate an interface with its implementation transparently at
+instantiation. Creational patterns ensure that your system is written in terms of interfaces,
+not implementations.
+
 ### How to select a design pattern
 
 The choice of programming language is important because it influences one's point of view. We assume level
