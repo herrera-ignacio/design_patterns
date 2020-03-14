@@ -19,6 +19,8 @@ database. Each of these areas has its own patterns, and it would be worthwhile f
 * How to select a design pattern
 * How to use a design pattern
 
+---
+
 ### What is a Design Pattern?
 
 > Each pattern describes a problem which occurs over and over again in our environment, and then
@@ -39,6 +41,8 @@ general arrangement of elements solves it.
 design alternatives and for understanding the costs and benefits of applying the pattern. Often concern
 space and time trade-offs. Since reuse is often a factor in object-oriented design, the consequences of a pattern
 include its impact on a system's flexibility, extensibility, or portability. 
+
+---
 
 ### Catalog of Design Patterns
 
@@ -105,6 +109,10 @@ what _not_ to put in the interface.
 
 Design patterns also specify relationships between interfaces. In particular, they often
 require some classes to have similar interfaces, or they place constraints on some of their interfaces.
+
+---
+
+#### Specifying Object Implementations
 
 ### How to select a design pattern
 

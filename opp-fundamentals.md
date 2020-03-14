@@ -1,5 +1,9 @@
 ## Object-oriented programming concepts
 
+* Class (Concrete Class)
+* Abstract Class
+* Inheritance (subclasses)
+* Mixin Class
 * Encapsulation
 * Interface
 * Type
@@ -8,6 +12,53 @@
 * Inheritance versus Composition
 * Inheritance versus Parameterized Types
 * Delegation
+
+### Class (Concrete Class)
+
+Defines object's internal data and representation, and defines the operations the
+object can perform.
+
+Objects are created by __instantiating__ a class, which allocates storage for the object's
+internal data (made up of instance variables) and associates the operations with these data.
+
+We can use OMT-based notation to represent classes.
+
+![OMT Notation](https://upload.wikimedia.org/wikipedia/commons/9/9d/OMT_object_diagram.png)
+
+### Abstract Class
+
+One whose main purpose is to define a common interface for its subclasses.
+
+An abstract class will defer some or all of its implementation to operations
+defined in subclasses, hence an abstract class cannot be instantiated.
+
+The operations that an abstract class declares but doesn't implement
+are called abstract operations.
+
+### Inheritance (subclasses)
+
+New classes can be defined in terms of existing classes using __class inheritance__. When a
+__subclass__ inherits from a parent class, it includes the definitions of all the data and
+operations that the parent class defines.
+
+Class inheritance lets you define classes simply by extending other classes, making it easy to
+define families of objects having related functionality.
+
+A subclass may override an operation defined by its parent class. Overriding gives subclasses a chance
+to handle requests instead of their parent class.
+
+Objects that are instances of the subclass will contain all data defined by the subclass and
+its parent classes, and they'll be able to perform all operations defined by both.
+
+### Mixin Class
+
+Class that is intended to provide an optional interface or functionality to other classes.
+
+It's similar to an abstract class in that it's not intended to be instantiated.
+
+Mixin classes require multiple inheritance.
+
+![Mixin](https://www.oreilly.com/library/view/learning-javascript-design/9781449334840/httpatomoreillycomsourceoreillyimages1547815.png)
 
 ### Encapsulation
 
