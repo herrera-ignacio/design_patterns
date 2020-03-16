@@ -18,7 +18,6 @@ database. Each of these areas has its own patterns, and it would be worthwhile f
 * How design patterns solve design problems
 * Common causes of redesign
 * How to select a design pattern
-* How to use a design pattern
 
 ---
 
@@ -252,3 +251,31 @@ The choice of programming language is important because it influences one's poin
 language features, and that choice determines what can and cannot be implemented easily. Some patterns are
 supported directly by some object-oriented languages, which lessen the need for some patterns. Some patterns
 can be expressed more easily in one language than other.
+
+Here are several different approaches to finding the design pattern that's right for your problem.
+
+#### 1. Consider how design patterns solve design problems
+
+Consider discussions about how design patterns help you find appropriate objects, determine object
+granularity, specify object interfaces, and several other ways.
+
+#### 2. Scan Intent
+
+Read through each pattern's intent to find one or more that sound relevant to your problem.
+
+#### 3. Study how patterns interrelate
+
+This may guide you to the right pattern or group of patterns
+
+#### 4. Study patterns of like purpose
+
+Patterns from a same categorization (creational, structural or behavioral) share similarities and
+differences between patterns of like purpose.
+
+#### 5. Consider what should be variable in your design
+
+This approach is the opposite of focusing on the causes of redesign. Instead of considering what might
+_force_ to change to a design, consider what you want to be _able_ to change without redesign. The focus
+here is on _encapsulating the concept that varies_.
+
+
