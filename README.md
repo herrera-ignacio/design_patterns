@@ -34,6 +34,13 @@ and Composition, you will find helpful the following summary:
     * How to select a design pattern
     * How to use a design pattern
 
+* [Creational Patterns](./creational.md)
+	* Abstract Factory
+	* Builder
+	* Factory Method
+	* Prototype
+	* Singleton
+
 ### :bangbang: Status
 
 This is work in progress, I'm planning to finish implementing

@@ -1,2 +1,6 @@
 .idea
 .vs
+
+# C++ examples
+**/cmake-build-debug
+**/*.out
