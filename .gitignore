@@ -4,3 +4,6 @@
 # C++ examples
 **/cmake-build-debug
 **/*.out
+
+# Python examples
+**/*.swp
