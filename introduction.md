@@ -42,6 +42,13 @@ design alternatives and for understanding the costs and benefits of applying the
 space and time trade-offs. Since reuse is often a factor in object-oriented design, the consequences of a pattern
 include its impact on a system's flexibility, extensibility, or portability. 
 
+I'll describe the following attributes, besides providing implementation examples:
+* Intent
+* Motivation
+* Applicability
+* Structure
+* Consequences
+
 ---
 
 ### Catalog of Design Patterns

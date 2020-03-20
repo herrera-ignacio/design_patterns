@@ -41,19 +41,6 @@ automatically as a consequence of using a `MotifWidgetFactory`.
 
 Use the _Abstract Factory_ pattern when:
 
-* system should be independent of how its products are created, composed and represented.
-* system should be configured with one of multiple families of products have no knowledge of the classes that implement widgets for
-a particular look-and-feel. In other words, clients only have to commit to an interface defined
-by an abstract class, not a particular concrete class.
-
-A `WidgetFactory` also enforces dependencies between the concrete widget classes. A `MotifScrollBar`
-should be used with a `MotifButton` and a `MotifTextEditor`, and that constraint is enforced
-automatically as a consequence of using a `MotifWidgetFactory`.
-
-### Applicability
-
-Use the _Abstract Factory_ pattern when:
-
 * System should be independent of how its products are created, composed and represented.
 * System should be configured with one of multiple families of products.
 * Family of related product objects is designed to be used together, and you need to enforce
