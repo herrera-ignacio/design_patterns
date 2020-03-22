@@ -16,11 +16,11 @@ I want to address the following points in this project:
 
 | Creational       	| Structural 	| Behavioral 	|
 |------------------	|------------	|------------	|
-| Abstract Factory 	| WIP        	| WIP        	|
-| Builder          	|            	|            	|
-| Factory Method   	|            	|            	|
-| Prototype        	|            	|            	|
-| Singleton        	|            	|            	|
+| [Abstract Factory](./creational/abstract-factory/abstract-factory.md) 	| WIP        	| WIP        	|
+| [Builder](./creational/builder/builder.md)          	|            	|            	|
+| [Factory Method](./creational/factory-method/factory-method.md)   	|            	|            	|
+| [Prototype](./creational/prototype/prototype.md)        	|            	|            	|
+| [Singleton](./creational/singleton/singleton.md)        	|            	|            	|
 
 If you are unfamiliar with object-oriented fundamentals or
 you would like a quick refresh of some concepts as Polymorphism, Inheritance
@@ -33,16 +33,17 @@ and Composition, you will find helpful the following summary:
     * How design patterns solve design problems
     * How to select a design pattern
     * How to use a design pattern
+    
 
-* [Creational Patterns](./creational.md)
+* [Creational Patterns](./creational/creational-patterns.md)
 	* Abstract Factory
 	* Builder
 	* Factory Method
 	* Prototype
 	* Singleton
-
+	
 ### :bangbang: Status
 
 This is work in progress, I'm planning to finish implementing
-examples for all the design patterns in GoF book using C++, and then
-give similar examples with Javascript and Python. 
+examples for all the design patterns in GoF book using Python, and then give similar examples with
+C++ or Javascript.

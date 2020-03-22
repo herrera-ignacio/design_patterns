@@ -25,7 +25,7 @@ database. Each of these areas has its own patterns, and it would be worthwhile f
 
 > Each pattern describes a problem which occurs over and over again in our environment, and then
 describes the core of the solution to that problem.
->
+
 
 In general, a pattern has four essential elements:
 
