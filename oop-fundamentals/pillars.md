@@ -7,7 +7,11 @@
 
 ### Abstraction
 
+__Abstraction of data or hiding information__.
 
+Abstraction is the process of showing only essential/necessary features of an entity to the outside world
+and hide the other irrelevant information. For example, to turn on your TV we only have a power button,
+it is not required to understand how infra-red waves are getting generated in TV remote control.
 
 ### Inheritance (subclasses)
 
@@ -25,6 +29,9 @@ Objects that are instances of the subclass will contain all data defined by the 
 its parent classes, and they'll be able to perform all operations defined by both.
 
 ### Encapsulation
+
+__Binding of data and functions that manipulate the data together__. Keep both safe
+from outside interference and misuse.
 
 An object packages both data and the methods that operate on that data. It performs
 and operation when it receives a request from a client.

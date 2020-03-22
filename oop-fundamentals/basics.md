@@ -24,7 +24,9 @@ We can use OMT-based notation to represent classes.
 
 #### UML Cheat sheet
 
-![UML Cheat sheet](./uml-cheatsheet.png)
+![UML Cheat sheet](../uml-cheatsheet.png)
+
+* [UML Relationships explain (Aggregation, Composition, etc)](https://linuxwell.wordpress.com/2011/08/13/uml-class-diagram/)
 
 ### Abstract Class
 

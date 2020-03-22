@@ -24,8 +24,13 @@ I want to address the following points in this project:
 
 If you are unfamiliar with object-oriented fundamentals or
 you would like a quick refresh of some concepts as Polymorphism, Inheritance
-and Composition, you will find helpful the following summary:
-[Object-oriented programming must know concepts!](./opp-fundamentals.md)
+and Composition, you will find helpful checking the first summary
+
+* [Object-oriented programming must know concepts!](./oop-fundamentals/README.md)
+    * Basics (Class, Interface, Type, etc...)
+    * 4 pillars of oop (Abstraction, Inheritance, Encapsulation, Polymorphism)
+    * Intermediate (Composition and delegation, trade-offs with inheritance)
+    * Principles of object-oriented design
 
 * [Introduction](./introduction.md)
     * What is a Design Pattern?
