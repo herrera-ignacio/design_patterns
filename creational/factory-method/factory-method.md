@@ -25,7 +25,7 @@ a new document should be created, not what kind of `Document` to create.
 The Factory Method pattern offers a solution. It encapsulates the knowledge of which `Document` subclass
 to create and moves this knowledge out of the framework.
 
-![factory example]('./factory-example.png')
+![factory example](./factory-example.png)
 
 `Application` subclasses redefine an abstract `CreateDocument` operation to return the appropriate
 `Document` subclass. Once an `Application` subclass is instantiated, it can then instantiate
@@ -42,7 +42,7 @@ to localize the knowledge of which helper subclass is the delegate
 
 ### Structure
 
-![factory structure]('./factory-structure.png')
+![factory structure](./factory-structure.png)
 
 * __Product__ (`Document`): defines the interface of objects the factory method creates.
 * __ConcreteProduct__ (`MyDocument`): implements the `Product` interface

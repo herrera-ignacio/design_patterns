@@ -21,7 +21,7 @@ and concrete subclasses implement widgets for specific look-and-feel standards.
 class. Clients call these operations to obtain widget instances, but clients aren't aware of the
 concrete classes they're using. Thus clients stay independent of the prevailing look-and-feel.
 
-![abstract-factory-example](https://drive.google.com/file/d/1GG93CO5CphQF6GRoaBD2qGQFhNQ3nAST/view?usp=sharing)
+![abstract-factory-example](./abstract-factory-example.png)
 
 There is a concrete subclass of `WidgetFactory` for each look-and-feel standard. Each subclass
 implements the operations to create the appropriate widget for the look-and-feel.
@@ -49,7 +49,7 @@ this constraint.
 
 ### Structure
 
-![abstract-factory-structure](https://drive.google.com/open?id=17ZNK3Ky2UlhlwYy8j0h6iVuzW9TndSeI)
+![abstract-factory-structure](./abstract-factory-structure.png)
 
 * Normally a single instance of a `ConcreteFactory` class is created at run-time. This
 concrete factory creates product objects having a particular implementation. To create
