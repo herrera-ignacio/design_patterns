@@ -47,6 +47,8 @@ and Composition, you will find helpful checking the first summary
 	* Prototype
 	* Singleton
 	
+* [Structural Patterns](./structural/structural-patterns.md)
+	
 ### :bangbang: Status
 
 This is work in progress, I'm planning to finish implementing
