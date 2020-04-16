@@ -1,7 +1,5 @@
 from abc import ABC, abstractstaticmethod
 
-
-
 class RTFReader:
     """ Director """
     __builder = None
