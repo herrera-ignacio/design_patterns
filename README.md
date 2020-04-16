@@ -52,5 +52,4 @@ and Composition, you will find helpful checking the first summary
 ### :bangbang: Status
 
 This is work in progress, I'm planning to finish implementing
-examples for all the design patterns in GoF book using Python, and then give similar examples with
-C++ or Javascript.
+examples for all the design patterns in GoF book using JavaScript and then give similar examples with C++ or C#. 
