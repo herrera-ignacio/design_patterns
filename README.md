@@ -16,7 +16,7 @@ I want to address the following points in this project:
 
 | Creational       	| Structural 	| Behavioral 	|
 |------------------	|------------	|------------	|
-| [Abstract Factory](./creational/abstract-factory/abstract-factory.md) 	| WIP        	| WIP        	|
+| [Abstract Factory](./creational/abstract-factory/abstract-factory.md) 	| [Adapter](./structural/adapter/adapter.md)        	| WIP        	|
 | [Builder](./creational/builder/builder.md)          	|            	|            	|
 | [Factory Method](./creational/factory-method/factory-method.md)   	|            	|            	|
 | [Prototype](./creational/prototype/prototype.md)        	|            	|            	|
@@ -48,6 +48,7 @@ and Composition, you will find helpful checking the first summary
 	* Singleton
 	
 * [Structural Patterns](./structural/structural-patterns.md)
+    * Adapter
 	
 ### :bangbang: Status
 
