@@ -17,8 +17,8 @@ I want to address the following points in this project:
 | Creational       	| Structural 	| Behavioral 	|
 |------------------	|------------	|------------	|
 | [Abstract Factory](./creational/abstract-factory/abstract-factory.md) 	| [Adapter](./structural/adapter/adapter.md)        	| WIP        	|
-| [Builder](./creational/builder/builder.md)          	| [Buiilder](./structural/builder/builder.md)           	|            	|
-| [Factory Method](./creational/factory-method/factory-method.md)   	|            	|            	|
+| [Builder](./creational/builder/builder.md)          	| [Bridge](./structural/bridge/bridge.md)           	|            	|
+| [Factory Method](./creational/factory-method/factory-method.md)   	| [Composite](./structural/composite/composite.md)           	|            	|
 | [Prototype](./creational/prototype/prototype.md)        	|            	|            	|
 | [Singleton](./creational/singleton/singleton.md)        	|            	|            	|
 
@@ -49,8 +49,9 @@ and Composition, you will find helpful checking the first summary
 	
 * [Structural Patterns](./structural/structural-patterns.md)
     * Adapter
-    * Builder
-	
+    * Bridge
+	* Composite
+
 ### :bangbang: Status
 
 This is work in progress, I'm planning to finish implementing

@@ -8,12 +8,15 @@ Decouple an abstraction from its implementation so that the two can vary indepen
 
 ### Applicability
 
-Use the Bridge pattern when:
+Use the __Bridge__ pattern when:
 * You want to avoid a permanent binding between an abstraction and its implementation (it can be selected at run-time).
 * Both abstractions and their implementations should be extensible by subclassing. Bridge lets you combine different abstractions and implementations, and extend them.
 * Changes in implementation of an abstraction should have no impact on clients.
 * You want to hide the implementation of an abstraction completely from clients.
 * You want to share an implementation among multiple objects, and this fact should be hidden from the client.
+
+The __Adapter__ pattern is geared toward making unrelated classes work together. It is usually applied to systems after they're designed. __Bridge__ on the other hand, is used upfront in a design to let abstractions and implementations vary independently.
+
 
 ### Motivation
 
