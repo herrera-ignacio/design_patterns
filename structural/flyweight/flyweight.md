@@ -37,8 +37,6 @@ object refers to the same instance in the shared pool of flyweight objects.
 
 ![flyweight sharing](./flyweight-sharing.png)
 
-Decorator maintains a reference to a Component object and defines an interface that conforms to Component's interface. We then instanciate `ConcreteDecorator`s that add responsibilities to the component.
-
 ### Consequences
 
 1. May introduce run-time costs associated with transferring, finding, and/or computing extrinsic state.

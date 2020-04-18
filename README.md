@@ -22,7 +22,7 @@ I want to address the following points in this project:
 | [Prototype](./creational/prototype/prototype.md) | [Decorator](./structural/decorator/decorator.md) | [Iterator]() |
 | [Singleton](./creational/singleton/singleton.md) | [Facade](./structural/facade/facade.md) | [Mediator]() |
 | | [Flyweight](./structural/flyweight/flyweight.md) | [Memento]() |
-| | [Proxy]() | [Observer]() |
+| | [Proxy](./structural/proxy/proxy.md) | [Observer]() |
 | | | [State]() |
 | | | [Strategy]() |
 | | | [Template Method]() |
@@ -59,6 +59,11 @@ and Composition, you will find helpful checking the first summary
 	* Composite
     * Decorator (or Wrapper)
     * Flyweight
+    * Proxy (or Surrogate)
+    * State
+    * Strategy
+    * Template Method
+    * Visitor
 
 ### :bangbang: Status
 
