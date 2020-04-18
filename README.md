@@ -21,7 +21,7 @@ I want to address the following points in this project:
 | [Factory Method](./creational/factory-method/factory-method.md) | [Composite](./structural/composite/composite.md) | [Interpreter]() |
 | [Prototype](./creational/prototype/prototype.md) | [Decorator](./structural/decorator/decorator.md) | [Iterator]() |
 | [Singleton](./creational/singleton/singleton.md) | [Facade](./structural/facade/facade.md) | [Mediator]() |
-| | [Flyweight]() | [Memento]() |
+| | [Flyweight](./structural/flyweight/flyweight.md) | [Memento]() |
 | | [Proxy]() | [Observer]() |
 | | | [State]() |
 | | | [Strategy]() |
@@ -54,10 +54,11 @@ and Composition, you will find helpful checking the first summary
 	* Singleton
 	
 * [Structural Patterns](./structural/structural-patterns.md)
-    * Adapter
-    * Bridge 
+    * Adapter (or Wrapper)
+    * Bridge  (or Handle/Body)
 	* Composite
-    * Decorator (Wrapper)
+    * Decorator (or Wrapper)
+    * Flyweight
 
 ### :bangbang: Status
 
