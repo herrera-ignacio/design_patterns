@@ -20,7 +20,7 @@ I want to address the following points in this project:
 | [Builder](./creational/builder/builder.md) | [Bridge](./structural/bridge/bridge.md) | [Command]() |
 | [Factory Method](./creational/factory-method/factory-method.md) | [Composite](./structural/composite/composite.md) | [Interpreter]() |
 | [Prototype](./creational/prototype/prototype.md) | [Decorator](./structural/decorator/decorator.md) | [Iterator]() |
-| [Singleton](./creational/singleton/singleton.md) | [Facade]() | [Mediator]() |
+| [Singleton](./creational/singleton/singleton.md) | [Facade](./structural/facade/facade.md) | [Mediator]() |
 | | [Flyweight]() | [Memento]() |
 | | [Proxy]() | [Observer]() |
 | | | [State]() |
