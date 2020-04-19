@@ -16,7 +16,7 @@ I want to address the following points in this project:
 
 | Creational       	| Structural 	| Behavioral 	|
 |------------------	|------------	|------------	|
-| [Abstract Factory](./creational/abstract-factory/abstract-factory.md) | [Adapter](./structural/adapter/adapter.md) | [Chain of Responsibility]() |
+| [Abstract Factory](./creational/abstract-factory/abstract-factory.md) | [Adapter](./structural/adapter/adapter.md) | [Chain of Responsibility](./behavioral/chain-of-responsibility/chain-of-responsibility.md) |
 | [Builder](./creational/builder/builder.md) | [Bridge](./structural/bridge/bridge.md) | [Command]() |
 | [Factory Method](./creational/factory-method/factory-method.md) | [Composite](./structural/composite/composite.md) | [Interpreter]() |
 | [Prototype](./creational/prototype/prototype.md) | [Decorator](./structural/decorator/decorator.md) | [Iterator]() |
