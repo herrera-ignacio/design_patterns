@@ -11,6 +11,7 @@ I want to address the following points in this project:
 ### :books: Bibliography
 
 * :closed_book: [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
+* :closed_book: [Software Design Patterns: Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
 
 ### :clipboard: TOC
 
