@@ -24,10 +24,10 @@ I want to address the following points in this project:
 | [Singleton](./creational/singleton/singleton.md) | [Facade](./structural/facade/facade.md) | [Mediator](./behavioral/mediator/mediator.md) |
 | | [Flyweight](./structural/flyweight/flyweight.md) | [Memento](./behavioral/memento/memento.md) |
 | | [Proxy](./structural/proxy/proxy.md) | [Observer](./behavioral/observer/observer.md) |
-| | | [State]() |
-| | | [Strategy]() |
-| | | [Template Method]() |
-| | | [Visitor]() |
+| | | [State]./behavioral/state/state.md) |
+| | | [Strategy](./behavioral/strategy/strategy.md) |
+| | | [Template Method](./behavioral/template-method/template-method.md) |
+| | | [Visitor](./behavioral/visitor/visitor.md) |
 
 If you are unfamiliar with object-oriented fundamentals or
 you would like a quick refresh of some concepts as Polymorphism, Inheritance
