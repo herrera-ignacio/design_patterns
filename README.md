@@ -20,7 +20,7 @@ I want to address the following points in this project:
 | [Abstract Factory](./creational/abstract-factory/abstract-factory.md) | [Adapter](./structural/adapter/adapter.md) | [Chain of Responsibility](./behavioral/chain-of-responsibility/chain-of-responsibility.md) |
 | [Builder](./creational/builder/builder.md) | [Bridge](./structural/bridge/bridge.md) | [Command](./behavioral/command/command.md) |
 | [Factory Method](./creational/factory-method/factory-method.md) | [Composite](./structural/composite/composite.md) | [Interpreter](./behavioral/interpreter/interpreter.md) |
-| [Prototype](./creational/prototype/prototype.md) | [Decorator](./structural/decorator/decorator.md) | [Iterator]() |
+| [Prototype](./creational/prototype/prototype.md) | [Decorator](./structural/decorator/decorator.md) | [Iterator](./behavioral/iterator/iterator.md) |
 | [Singleton](./creational/singleton/singleton.md) | [Facade](./structural/facade/facade.md) | [Mediator]() |
 | | [Flyweight](./structural/flyweight/flyweight.md) | [Memento]() |
 | | [Proxy](./structural/proxy/proxy.md) | [Observer]() |
