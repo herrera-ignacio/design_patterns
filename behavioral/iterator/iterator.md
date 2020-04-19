@@ -1,4 +1,4 @@
-# Interpreteri
+# Interpreter
 
 Also known as __Cursor__.
 

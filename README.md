@@ -21,7 +21,7 @@ I want to address the following points in this project:
 | [Builder](./creational/builder/builder.md) | [Bridge](./structural/bridge/bridge.md) | [Command](./behavioral/command/command.md) |
 | [Factory Method](./creational/factory-method/factory-method.md) | [Composite](./structural/composite/composite.md) | [Interpreter](./behavioral/interpreter/interpreter.md) |
 | [Prototype](./creational/prototype/prototype.md) | [Decorator](./structural/decorator/decorator.md) | [Iterator](./behavioral/iterator/iterator.md) |
-| [Singleton](./creational/singleton/singleton.md) | [Facade](./structural/facade/facade.md) | [Mediator]() |
+| [Singleton](./creational/singleton/singleton.md) | [Facade](./structural/facade/facade.md) | [Mediator](./behavioral/mediator/mediator.md) |
 | | [Flyweight](./structural/flyweight/flyweight.md) | [Memento]() |
 | | [Proxy](./structural/proxy/proxy.md) | [Observer]() |
 | | | [State]() |
