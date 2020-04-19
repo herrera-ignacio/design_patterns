@@ -23,7 +23,7 @@ I want to address the following points in this project:
 | [Prototype](./creational/prototype/prototype.md) | [Decorator](./structural/decorator/decorator.md) | [Iterator](./behavioral/iterator/iterator.md) |
 | [Singleton](./creational/singleton/singleton.md) | [Facade](./structural/facade/facade.md) | [Mediator](./behavioral/mediator/mediator.md) |
 | | [Flyweight](./structural/flyweight/flyweight.md) | [Memento](./behavioral/memento/memento.md) |
-| | [Proxy](./structural/proxy/proxy.md) | [Observer]() |
+| | [Proxy](./structural/proxy/proxy.md) | [Observer](./behavioral/observer/observer.md) |
 | | | [State]() |
 | | | [Strategy]() |
 | | | [Template Method]() |
