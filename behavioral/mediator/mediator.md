@@ -6,7 +6,7 @@ Encapsulate how a set of objects interact. Mediator promotes loose coupling by k
 
 ### Applicability
 
-Use the __Iterator__ pattern:
+Use the __Mediator__ pattern:
 * define an interface for communicating with set of objects that interact with each other.
 * define an interface for managing operations that involve multiple objects request.
 * decouple objects that collaborate to perform a set of operations.

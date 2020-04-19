@@ -22,7 +22,7 @@ I want to address the following points in this project:
 | [Factory Method](./creational/factory-method/factory-method.md) | [Composite](./structural/composite/composite.md) | [Interpreter](./behavioral/interpreter/interpreter.md) |
 | [Prototype](./creational/prototype/prototype.md) | [Decorator](./structural/decorator/decorator.md) | [Iterator](./behavioral/iterator/iterator.md) |
 | [Singleton](./creational/singleton/singleton.md) | [Facade](./structural/facade/facade.md) | [Mediator](./behavioral/mediator/mediator.md) |
-| | [Flyweight](./structural/flyweight/flyweight.md) | [Memento]() |
+| | [Flyweight](./structural/flyweight/flyweight.md) | [Memento](./behavioral/memento/memento.md) |
 | | [Proxy](./structural/proxy/proxy.md) | [Observer]() |
 | | | [State]() |
 | | | [Strategy]() |
