@@ -11,3 +11,7 @@ This pattern is particularly useful for making independently developed class lib
 
 The added flexibility of object composition comes from the ability to change the composition at run-time, which is
 impossible with static class composition.
+
+### Discussion on Structural Patterns
+
+Structural patterns rely on same small set of language mechanisms for structuring code and objects: single and multiple inheritance for class-based patterns, and object composition for object patterns.
