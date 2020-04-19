@@ -15,10 +15,10 @@ I want to address the following points in this project:
 
 ### :clipboard: TOC
 
-| Creational       	| Structural 	| Behavioral 	|
+| [Creational](./creational/creational-patterns.md) | [Structural](./structural/structural-patterns.md) | [Behavioral](./structural/behavioral-patterns) |
 |------------------	|------------	|------------	|
 | [Abstract Factory](./creational/abstract-factory/abstract-factory.md) | [Adapter](./structural/adapter/adapter.md) | [Chain of Responsibility](./behavioral/chain-of-responsibility/chain-of-responsibility.md) |
-| [Builder](./creational/builder/builder.md) | [Bridge](./structural/bridge/bridge.md) | [Command]() |
+| [Builder](./creational/builder/builder.md) | [Bridge](./structural/bridge/bridge.md) | [Command](./behavioral/command/command.md) |
 | [Factory Method](./creational/factory-method/factory-method.md) | [Composite](./structural/composite/composite.md) | [Interpreter]() |
 | [Prototype](./creational/prototype/prototype.md) | [Decorator](./structural/decorator/decorator.md) | [Iterator]() |
 | [Singleton](./creational/singleton/singleton.md) | [Facade](./structural/facade/facade.md) | [Mediator]() |
@@ -61,6 +61,15 @@ and Composition, you will find helpful checking the first summary
     * Decorator (or Wrapper)
     * Flyweight
     * Proxy (or Surrogate)
+
+* [Behavioral Patterns](./behavioral/behavioral-patterns.md)
+    * Chain of Responsibility
+    * Command
+    * Interpreter
+    * Iterator
+    * Mediator
+    * Memento
+    * Observer
     * State
     * Strategy
     * Template Method
