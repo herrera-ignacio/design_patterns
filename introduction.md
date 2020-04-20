@@ -14,6 +14,7 @@ It doesn't tell you how to build user interfaces, how to write device drives, or
 database. Each of these areas has its own patterns, and it would be worthwhile for someone to catalog those too.
 
 * What is a Design Pattern?
+* What to expect from design patterns?
 * Catalog of design patterns
 * How design patterns solve design problems
 * Common causes of redesign
@@ -48,6 +49,30 @@ I'll describe the following attributes, besides providing implementation example
 * Applicability
 * Structure
 * Consequences
+
+---
+
+### What to expect from design patterns?
+
+#### A Common Design Vocabulary
+
+Knowledge and experience isn't organized simply around syntax but in larger conceptual structures such as algorithms, data structures and idioms. Designers probably don't think about the notation they're using for recoding the design as much as they try to match the current design situation against plans they have learned in the past.
+
+Design patterns provide a common vocabulary for designers to use to communicate, document, and explore design alternatives. They make a system seem less complex by letting you talk about it at a higher level of abstraction than that of a design notation or programming language.
+
+#### Documentation and Learning Aid
+
+Knowing the design patterns makes it easier to understand existing object-oriented systems. They can also make you a better designer as they provide solutions to common problems.
+
+Moreover, describing a system in terms of the design patterns that it uses will make it a lot easier to understand. Otherwise, people will have to reverse-engineer the design to unearth the patterns it uses.
+
+#### An Adjunct to Existing Models
+
+Design patterns show how to use primitive techniques such as objects, inheritance, and polymorphism. They show how to parameterize a system with an algorithm, a behavior, a state, or the kind of objects it's supposed to create. Design patterns provide a way to describe more of the "why" of a design and not just record the results of your decisions.
+
+#### A Target for Refactoring
+
+Design patterns help you determine how to reorganize a design, and they can reduce the amount of refactoring you need to do later.
 
 ---
 

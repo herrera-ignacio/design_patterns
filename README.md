@@ -24,7 +24,7 @@ I want to address the following points in this project:
 | [Singleton](./creational/singleton/singleton.md) | [Facade](./structural/facade/facade.md) | [Mediator](./behavioral/mediator/mediator.md) |
 | | [Flyweight](./structural/flyweight/flyweight.md) | [Memento](./behavioral/memento/memento.md) |
 | | [Proxy](./structural/proxy/proxy.md) | [Observer](./behavioral/observer/observer.md) |
-| | | [State]./behavioral/state/state.md) |
+| | | [State](./behavioral/state/state.md) |
 | | | [Strategy](./behavioral/strategy/strategy.md) |
 | | | [Template Method](./behavioral/template-method/template-method.md) |
 | | | [Visitor](./behavioral/visitor/visitor.md) |
@@ -41,6 +41,7 @@ and Composition, you will find helpful checking the first summary
 
 * [Introduction](./introduction.md)
     * What is a Design Pattern?
+    * What To Expect From Design Patterns
     * Catalog of Design Patterns
     * How design patterns solve design problems
     * How to select a design pattern
@@ -75,7 +76,10 @@ and Composition, you will find helpful checking the first summary
     * Template Method
     * Visitor
 
-### :bangbang: Status
+### :fire: Status
 
-This is work in progress, I'm planning to finish implementing
-examples for all the design patterns in GoF book using JavaScript and then give similar examples with C++ or C#. 
+:heavy_check_mark: Completed all Object-Oriented Design Patterns from GoF
+
+:heavy_check_mark: Javascript examples
+
+:point_right: Functional Design Patterns (WIP)
