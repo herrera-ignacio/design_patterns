@@ -17,13 +17,13 @@ The Visitor pattern defines a new operation to a collection of objects without c
 
 Visitors are useful when building extensibility in a library or framework. If the objects in your project provide a 'visit' method that accepts a Visitor object which can make changes to the receiving object then you are providing an easy way for clients to implement future extensions.
 
-![visitor example](./visitor/visitor-example.png)
+![visitor example](./visitor-example.png)
 
 ### Structure
 
-![Visitor structure](./visitor/visitor-structure.png)
+![Visitor structure](./visitor-structure.png)
 
-![Visitor relationships](./visitor/visitor-relationships.png)
+![Visitor relationships](./visitor-relationships.png)
 
 ### Consequences
 
