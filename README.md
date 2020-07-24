@@ -28,7 +28,7 @@ I want to address the following points in this project:
 | | | [State](./behavioral/state/state.md) |
 | | | [Strategy](./behavioral/strategy/strategy.md) |
 | | | [Template Method](./behavioral/template-method/template-method.md) |
-| | | [Visitor](./behavioral/visitor/visitor.md) |
+| | | [Visitor](./behavioral/visitor) |
 
 If you are unfamiliar with object-oriented fundamentals or
 you would like a quick refresh of some concepts as Polymorphism, Inheritance
