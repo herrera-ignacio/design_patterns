@@ -32,16 +32,6 @@ I want to address the following points in this project:
 | | | [Template Method](./behavioral/template-method/template-method.md) |
 | | | [Visitor](./behavioral/visitor) |
 
-If you are unfamiliar with object-oriented fundamentals or
-you would like a quick refresh of some concepts as Polymorphism, Inheritance
-and Composition, you will find helpful checking the first summary
-
-* [Object-oriented programming must know concepts!](./oop-fundamentals/README.md)
-    * Basics (Class, Interface, Type, etc...)
-    * 4 pillars of oop (Abstraction, Inheritance, Encapsulation, Polymorphism)
-    * Intermediate (Composition and delegation, trade-offs with inheritance)
-    * Principles of object-oriented design
-
 * [Creational Patterns](./creational/creational-patterns.md)
 	* Abstract Factory
 	* Builder
