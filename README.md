@@ -16,6 +16,8 @@ I want to address the following points in this project:
 
 ### :clipboard: TOC
 
+* [What is a Design Pattern?](./introduction/design-pattern.md)
+
 | [Creational](./creational/creational-patterns.md) | [Structural](./structural/structural-patterns.md) | [Behavioral](./structural/behavioral-patterns) |
 |------------------	|------------	|------------	|
 | [Abstract Factory](./creational/abstract-factory/abstract-factory.md) | [Adapter](./structural/adapter/adapter.md) | [Chain of Responsibility](./behavioral/chain-of-responsibility/chain-of-responsibility.md) |
@@ -39,15 +41,6 @@ and Composition, you will find helpful checking the first summary
     * 4 pillars of oop (Abstraction, Inheritance, Encapsulation, Polymorphism)
     * Intermediate (Composition and delegation, trade-offs with inheritance)
     * Principles of object-oriented design
-
-* [Introduction](./introduction.md)
-    * What is a Design Pattern?
-    * What To Expect From Design Patterns
-    * Catalog of Design Patterns
-    * How design patterns solve design problems
-    * How to select a design pattern
-    * How to use a design pattern
-    
 
 * [Creational Patterns](./creational/creational-patterns.md)
 	* Abstract Factory
@@ -83,4 +76,8 @@ and Composition, you will find helpful checking the first summary
 
 :heavy_check_mark: Javascript examples
 
-:point_right: Functional Design Patterns (WIP)
+:point_right: Refactor Javascript examples using Typescript
+
+:point_right: C++ examples
+
+:point_right: Rearrange folder structure
