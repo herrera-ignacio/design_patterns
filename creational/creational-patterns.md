@@ -1,28 +1,133 @@
 # Creational Patterns
 
-Creational design patterns __abstract the instantiation process__. They help make a system independent
-of how its objects are created, composed, and represented.
+* Definition
+* Study case
+  * C++ implementation
+* Discussion of Creational Patterns
 
-A class creational pattern uses inheritances to vary the class that's instantiated,
-whereas an object creational pattern will delegate instantiation to another object.
+## Definition
 
-Creational patterns become important as systems evolve to depend more on object
-composition than class inheritance. As that happens, emphasis shifts away from hard-coding
-a fixed set of behaviors toward defining a smaller set of fundamental behaviors that can be
-composed into any number of more complex ones.
+> Creational design patterns __abstract the instantiation process__. They help make a system independent of how its objects are created, composed, and represented.
+
+Class creational pattern uses inheritance to vary the class that's instantiated, whereas an object creational pattern will delegate instantiation to another object.
+
+Creational patterns become important as systems evolve to depend more on object composition than class inheritance. As that happens, __emphasis shifts away from hard-coding a fixed set of behaviors toward defining a smaller set of fundamental behaviors that can be composed into any number of more complex ones__.
 
 There are two recurring themes in these patterns:
 
 1. Encapsulate all knowledge about which concrete class the system uses.
 2. Hide how instances of these classes are created and put together.
 
-All the system at large knows about the objects is their interfaces as defined by abstract classes.
+All the system at large knows about the objects is their interfaces as defined by abstract classes. Consequently, the creational patterns give you a lot of flexibility in _what_ gets created, _how_ it gets created, and _when_.
 
-A big barrier to change lies in hard-coding the classes that get instantiated. Creational patterns
-provide different ways to remove explicit references to concrete classes from code that needs to
-instantiate them.
+Creational patterns show how to make designs more _flexible_, not necessarily smaller.
 
-### Discussion of Creational Patterns
+## Study case
+
+We'll study a common example, building a maze for a computer game. The maze and the game will vary slightly from pattern to pattern. We'll ignore many details of what can be in a maze and whether a maze game has a single or multiple players. Instead, we'll just focus on how mazes get created. We define a maze as a set of rooms. A room knows its neighbors, possible neighbors are another room, a wall, or a door to another room.
+
+The classes `Room`, `Door`, and `Wall` define the components of the maze used in all our examples. We define only the parts of these classes that are important for creating a maze.
+
+![Maze diagram](./maze.png)
+
+### C++ Base implementation
+
+```c++
+enum Direction {North, South, East, West};
+
+class MapSite {
+public:
+  virtual void Enter() = 0;
+};
+
+class Room : public MapSite {
+public:
+  Room(int roomNo);
+
+  MapSite* GetSide(Direction) const;
+  void SetSide(Direction, MapSite*);
+
+  virtual void Enter();
+
+private:
+  MapSite* _sides[4]
+  int _roomNumber;
+};
+
+class Wall : public MapSite {
+public:
+  Wall();
+
+  virtual void Enter();
+};
+
+class Door : public MapSite {
+public:
+  Door(Room* = 0, Room* = 0);
+
+  virtual void Enter();
+  Room* OtherSideFrom(Room*);
+
+private:
+  Room* _room1;
+  Room* _room2;
+  bool _isOpen;
+}
+
+class Maze {
+public:
+  Maze();
+
+  void AddRoom(Room*);
+  Room* RoomNo(int) const;
+private:
+  // ...
+}
+```
+
+We'll focus on how to specify the components of a maze object.
+
+We define a class `MazeGame`, which creates the maze. One straightforward way to create a maze is with a series of operations that add components to a maze and then interconnect them. For example, the following memeber function will create a maze consisting of two rooms with a door between them:
+
+```c++
+Maze* MazeGame::CreateMaze() {
+  Maze* aMaze = new Maze;
+  Room* r1 = new Room(1);
+  Room* r2 = new Room(2);
+  Door* theDoor = new Door(r1, r2);
+
+  aMaze->AddRoom(r1);
+  aMaze->AddRoom(r2);
+
+  r1->SetSize(North, new Wall);
+  r1->SetSize(East, theDoor);
+  r1->SetSize(South, new Wall);
+  r1->SetSize(West, new Wall);
+
+  r2->setSize(North, new Wall);
+  r2->setSize(East, new Wall);
+  r2->setSize(South, new Wall);
+  r2->setSize(West, theDoor);
+}
+```
+
+This function is pretty complicated, considering that all it does is create a maze with two rooms. There are obvious ways to make it simpler. The real problem isn't the _size_ but its __inflexibility__. It hard-codes the maze layout. Changing the layout means changing this member function, either by overriding it (which means reimplementing the whole thing), or by changing parts of it (which is error-prone and doesn't promote reuse).
+
+Suppose you wanted to reuse an existing maze layout for a new game containing enchanted mazses. The enchanted maze game has new kinds of components, like `DoorNeedingSpell`, a door that can be locked and open subsequnetly only with a spell, and `EnchantedRoom`, a room that can have unconventional items in it, like magic keys or spells. How can you change `CreateMaze` easily so that it creates mazes with these new classes of objects?
+
+In this case, the biggest barrier to change lies in hard-coding the classes that get instantiated. The __creational patterns provide different ways to remove explicit references to concrete classes__ from code that needs to instantiate them:
+
+* If `CreateMaze` calls virtual functions instead of constructor calls to create the rooms, walls, and doors it requires, then you can change the classes that get instantiated by making a subclass of `MazeGame` and redifining those virtual functions. This approach is an example of the _Factory Method_ pattern.
+
+* If `CreateMaze` is passed an object as a parameter to use to create rooms, walls, and doors, then you can change the instantiated classes by passing a different parameter. This is an example of the _Abstract Factory_ pattern.
+
+* If `CreateMaze` is passed an object that can create a new maze in its entirety using operations for adding rooms, doors, and walls to the maze it builds, then you can use inheritance to change parts of the maze or the way the maze is built. This is an example of the _Builder_ pattern.
+
+* If `CreateMaze` is parameterized by various prototypical room, door, and wall objects, which it then copies and adds to the maze, then you can change the maze's composition by replacing these prototypical objects with different ones. This is an example of the _Prototype_ pattern.
+
+The remaining creational pattern, _Singleton_, can ensure there's only one maze per game and that all game objects have ready access to it (without resorting to global variables or functions). Singleton also makes it easy to extend or replace the maze without touching existing code.
+
+## Discussion of Creational Patterns
 
 I encourage you to read the following only once you've seen all creational patterns description and examples.
 
