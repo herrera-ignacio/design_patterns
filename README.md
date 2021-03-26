@@ -1,6 +1,6 @@
 # Design Patterns
 
-### :pushpin: Description
+## :pushpin: Description
 
 Theory and practical examples of design patterns in multiple programming languages (C++, Javascript and Python).
 
@@ -8,13 +8,13 @@ I want to address the following points in this project:
 * What are design patterns and why are they important?
 * Real-life working examples
 
-### :books: Bibliography
+## :books: Bibliography
 
 * :closed_book: [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
 * :closed_book: [Software Design Patterns: Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
 * :closed_book: [Gang of Four - Cheatsheet](./GangOfFour-Cheatsheet.pdf)
 
-### :clipboard: TOC
+## :clipboard: Design Pattern Catalog
 
 * [What is a Design Pattern?](./introduction/design-pattern.md)
 
@@ -33,7 +33,7 @@ I want to address the following points in this project:
 | | | [Visitor](./behavioral/visitor) |
 
 * [Creational Patterns](./creational/creational-patterns.md)
-	* Abstract Factory
+    * [Abstract Factory](/creational/abstract-factory/abstract-factory.md): Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
 	* Builder
 	* Factory Method
 	* Prototype
