@@ -43,7 +43,7 @@ I want to address the following points in this project:
     * [Adapter (or Wrapper)](./structural/adapter): Convert the interface of a class into another interface clients expect.
     * [Bridge (or Handle/Body)](./structural/bridge): Decouple an abstraction from its implementation so that the two can vary independently.
 	* [Composite](./structural/composite): Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
-    * Decorator (or Wrapper)
+    * [Decorator (or Wrapper)](./structural/decorator): Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
     * Flyweight
     * Proxy (or Surrogate)
 
