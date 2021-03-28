@@ -21,7 +21,7 @@ I want to address the following points in this project:
 | [Creational](./creational) | [Structural](./structural) | [Behavioral](./structural/behavioral-patterns) |
 |------------------	|------------	|------------	|
 | [Abstract Factory](./creational/abstract-factory) | [Adapter](./structural/adapter) | [Chain of Responsibility](./behavioral/chain-of-responsibility/chain-of-responsibility.md) |
-| [Builder](./creational/builder) | [Bridge](./structural/bridge/bridge.md) | [Command](./behavioral/command/command.md) |
+| [Builder](./creational/builder) | [Bridge](./structural/bridge) | [Command](./behavioral/command/command.md) |
 | [Factory Method](./creational/factory-method) | [Composite](./structural/composite/composite.md) | [Interpreter](./behavioral/interpreter/interpreter.md) |
 | [Prototype](./creational/prototype) | [Decorator](./structural/decorator/decorator.md) | [Iterator](./behavioral/iterator/iterator.md) |
 | [Singleton](./creational/singleton) | [Facade](./structural/facade/facade.md) | [Mediator](./behavioral/mediator/mediator.md) |
@@ -41,7 +41,7 @@ I want to address the following points in this project:
 	
 * [Structural Patterns](./structural)
     * [Adapter (or Wrapper)](./structural/adapter): Convert the interface of a class into another interface clients expect.
-    * Bridge (or Handle/Body)
+    * [Bridge (or Handle/Body)](./structural/bridge): Decouple an abstraction from its implementation so that the two can vary independently.
 	* Composite
     * Decorator (or Wrapper)
     * Flyweight
