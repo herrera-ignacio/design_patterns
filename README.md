@@ -18,9 +18,9 @@ I want to address the following points in this project:
 
 * [What is a Design Pattern?](./introduction/design-pattern.md)
 
-| [Creational](./creational) | [Structural](./structural/structural-patterns.md) | [Behavioral](./structural/behavioral-patterns) |
+| [Creational](./creational) | [Structural](./structural) | [Behavioral](./structural/behavioral-patterns) |
 |------------------	|------------	|------------	|
-| [Abstract Factory](./creational/abstract-factory) | [Adapter](./structural/adapter/adapter.md) | [Chain of Responsibility](./behavioral/chain-of-responsibility/chain-of-responsibility.md) |
+| [Abstract Factory](./creational/abstract-factory) | [Adapter](./structural/adapter) | [Chain of Responsibility](./behavioral/chain-of-responsibility/chain-of-responsibility.md) |
 | [Builder](./creational/builder) | [Bridge](./structural/bridge/bridge.md) | [Command](./behavioral/command/command.md) |
 | [Factory Method](./creational/factory-method) | [Composite](./structural/composite/composite.md) | [Interpreter](./behavioral/interpreter/interpreter.md) |
 | [Prototype](./creational/prototype) | [Decorator](./structural/decorator/decorator.md) | [Iterator](./behavioral/iterator/iterator.md) |
@@ -39,9 +39,9 @@ I want to address the following points in this project:
 	* [Prototype](./creational/prototype): Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.
 	* [Singleton](./creational/singleton): Ensure a class only has one instance, and provide a global point of access to it.
 	
-* [Structural Patterns](./structural/structural-patterns.md)
-    * Adapter (or Wrapper)
-    * Bridge  (or Handle/Body)
+* [Structural Patterns](./structural)
+    * [Adapter (or Wrapper)](./structural/adapter): Convert the interface of a class into another interface clients expect.
+    * Bridge (or Handle/Body)
 	* Composite
     * Decorator (or Wrapper)
     * Flyweight
