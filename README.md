@@ -22,7 +22,7 @@ I want to address the following points in this project:
 |------------------	|------------	|------------	|
 | [Abstract Factory](./creational/abstract-factory) | [Adapter](./structural/adapter/adapter.md) | [Chain of Responsibility](./behavioral/chain-of-responsibility/chain-of-responsibility.md) |
 | [Builder](./creational/builder) | [Bridge](./structural/bridge/bridge.md) | [Command](./behavioral/command/command.md) |
-| [Factory Method](./creational/factory-method/factory-method.md) | [Composite](./structural/composite/composite.md) | [Interpreter](./behavioral/interpreter/interpreter.md) |
+| [Factory Method](./creational/factory-method) | [Composite](./structural/composite/composite.md) | [Interpreter](./behavioral/interpreter/interpreter.md) |
 | [Prototype](./creational/prototype/prototype.md) | [Decorator](./structural/decorator/decorator.md) | [Iterator](./behavioral/iterator/iterator.md) |
 | [Singleton](./creational/singleton/singleton.md) | [Facade](./structural/facade/facade.md) | [Mediator](./behavioral/mediator/mediator.md) |
 | | [Flyweight](./structural/flyweight/flyweight.md) | [Memento](./behavioral/memento/memento.md) |
@@ -35,7 +35,7 @@ I want to address the following points in this project:
 * [Creational Patterns](./creational/creational-patterns.md)
     * [Abstract Factory](./creational/abstract-factory): Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
 	* [Builder](./creational/builder): Separate the construction of a complex object from its representation so that the same construction process can create different representations.
-	* Factory Method
+	* [Factory Method](./creational/factory-method): Define an interface for creating an object, but let subclasses decide which class to instantiate.
 	* Prototype
 	* Singleton
 	
