@@ -22,7 +22,7 @@ I want to address the following points in this project:
 |------------------	|------------	|------------	|
 | [Abstract Factory](./creational/abstract-factory) | [Adapter](./structural/adapter) | [Chain of Responsibility](./behavioral/chain-of-responsibility/chain-of-responsibility.md) |
 | [Builder](./creational/builder) | [Bridge](./structural/bridge) | [Command](./behavioral/command/command.md) |
-| [Factory Method](./creational/factory-method) | [Composite](./structural/composite/composite.md) | [Interpreter](./behavioral/interpreter/interpreter.md) |
+| [Factory Method](./creational/factory-method) | [Composite](./structural/composite) | [Interpreter](./behavioral/interpreter/interpreter.md) |
 | [Prototype](./creational/prototype) | [Decorator](./structural/decorator/decorator.md) | [Iterator](./behavioral/iterator/iterator.md) |
 | [Singleton](./creational/singleton) | [Facade](./structural/facade/facade.md) | [Mediator](./behavioral/mediator/mediator.md) |
 | | [Flyweight](./structural/flyweight/flyweight.md) | [Memento](./behavioral/memento/memento.md) |
@@ -42,7 +42,7 @@ I want to address the following points in this project:
 * [Structural Patterns](./structural)
     * [Adapter (or Wrapper)](./structural/adapter): Convert the interface of a class into another interface clients expect.
     * [Bridge (or Handle/Body)](./structural/bridge): Decouple an abstraction from its implementation so that the two can vary independently.
-	* Composite
+	* [Composite](./structural/composite): Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
     * Decorator (or Wrapper)
     * Flyweight
     * Proxy (or Surrogate)
