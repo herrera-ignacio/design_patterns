@@ -26,7 +26,7 @@ I want to address the following points in this project:
 | [Prototype](./creational/prototype) | [Decorator](./structural/decorator) | [Iterator](./behavioral/iterator/iterator.md) |
 | [Singleton](./creational/singleton) | [Facade](./structural/facade) | [Mediator](./behavioral/mediator/mediator.md) |
 | | [Flyweight](./structural/flyweight) | [Memento](./behavioral/memento/memento.md) |
-| | [Proxy](./structural/proxy/proxy.md) | [Observer](./behavioral/observer/observer.md) |
+| | [Proxy](./structural/proxy) | [Observer](./behavioral/observer/observer.md) |
 | | | [State](./behavioral/state/state.md) |
 | | | [Strategy](./behavioral/strategy/strategy.md) |
 | | | [Template Method](./behavioral/template-method/template-method.md) |
@@ -46,7 +46,7 @@ I want to address the following points in this project:
     * [Decorator (or Wrapper)](./structural/decorator): Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
     * [Facade](./structural/facade): Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
     * [Flyweight](./structural/flyweight): Use sharing to support large numbers of fine-grained objects efficiently.
-    * Proxy (or Surrogate)
+    * [Proxy (or Surrogate)](./structural/proxy): Provide a surrogate or placeholder for another object to control access to it.
 
 * [Behavioral Patterns](./behavioral/behavioral-patterns.md)
     * Chain of Responsibility
