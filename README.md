@@ -23,8 +23,8 @@ I want to address the following points in this project:
 | [Abstract Factory](./creational/abstract-factory) | [Adapter](./structural/adapter) | [Chain of Responsibility](./behavioral/chain-of-responsibility/chain-of-responsibility.md) |
 | [Builder](./creational/builder) | [Bridge](./structural/bridge) | [Command](./behavioral/command/command.md) |
 | [Factory Method](./creational/factory-method) | [Composite](./structural/composite) | [Interpreter](./behavioral/interpreter/interpreter.md) |
-| [Prototype](./creational/prototype) | [Decorator](./structural/decorator/decorator.md) | [Iterator](./behavioral/iterator/iterator.md) |
-| [Singleton](./creational/singleton) | [Facade](./structural/facade/facade.md) | [Mediator](./behavioral/mediator/mediator.md) |
+| [Prototype](./creational/prototype) | [Decorator](./structural/decorator) | [Iterator](./behavioral/iterator/iterator.md) |
+| [Singleton](./creational/singleton) | [Facade](./structural/facade) | [Mediator](./behavioral/mediator/mediator.md) |
 | | [Flyweight](./structural/flyweight/flyweight.md) | [Memento](./behavioral/memento/memento.md) |
 | | [Proxy](./structural/proxy/proxy.md) | [Observer](./behavioral/observer/observer.md) |
 | | | [State](./behavioral/state/state.md) |
@@ -44,6 +44,7 @@ I want to address the following points in this project:
     * [Bridge (or Handle/Body)](./structural/bridge): Decouple an abstraction from its implementation so that the two can vary independently.
 	* [Composite](./structural/composite): Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
     * [Decorator (or Wrapper)](./structural/decorator): Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+    * [Facade](./structural/facade): Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
     * Flyweight
     * Proxy (or Surrogate)
 
