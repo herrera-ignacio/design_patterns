@@ -49,7 +49,7 @@ I want to address the following points in this project:
     * [Proxy (or Surrogate)](./structural/proxy): Provide a surrogate or placeholder for another object to control access to it.
 
 * [Behavioral Patterns](./behavioral)
-    * Chain of Responsibility
+    * [Chain of Responsibility](./behavioral/chain-of-responsibility): Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request.
     * Command
     * Interpreter
     * Iterator
