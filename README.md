@@ -50,7 +50,7 @@ I want to address the following points in this project:
 
 * [Behavioral Patterns](./behavioral)
     * [Chain of Responsibility](./behavioral/chain-of-responsibility): Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request.
-    * Command
+    * [Command](./behavioral/command): Encapsulate the request as an object, thereby letitng you parameterize clients with different requests, queue or log requests, and support undoable operations.
     * Interpreter
     * Iterator
     * Mediator
