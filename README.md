@@ -20,9 +20,9 @@ I want to address the following points in this project:
 
 | [Creational](./creational) | [Structural](./structural) | [Behavioral](./structural/behavioral-patterns) |
 |------------------	|------------	|------------	|
-| [Abstract Factory](./creational/abstract-factory) | [Adapter](./structural/adapter) | [Chain of Responsibility](./behavioral/chain-of-responsibility/chain-of-responsibility.md) |
-| [Builder](./creational/builder) | [Bridge](./structural/bridge) | [Command](./behavioral/command/command.md) |
-| [Factory Method](./creational/factory-method) | [Composite](./structural/composite) | [Interpreter](./behavioral/interpreter/interpreter.md) |
+| [Abstract Factory](./creational/abstract-factory) | [Adapter](./structural/adapter) | [Chain of Responsibility](./behavioral/chain-of-responsibility) |
+| [Builder](./creational/builder) | [Bridge](./structural/bridge) | [Command](./behavioral/command) |
+| [Factory Method](./creational/factory-method) | [Composite](./structural/composite) | [Interpreter](./behavioral/interpreter) |
 | [Prototype](./creational/prototype) | [Decorator](./structural/decorator) | [Iterator](./behavioral/iterator/iterator.md) |
 | [Singleton](./creational/singleton) | [Facade](./structural/facade) | [Mediator](./behavioral/mediator/mediator.md) |
 | | [Flyweight](./structural/flyweight) | [Memento](./behavioral/memento/memento.md) |
@@ -52,7 +52,7 @@ I want to address the following points in this project:
     * [Chain of Responsibility](./behavioral/chain-of-responsibility): Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request.
     * [Command](./behavioral/command): Encapsulate the request as an object, thereby letitng you parameterize clients with different requests, queue or log requests, and support undoable operations.
     * [Interpreter](./behavioral/interpreter): Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
-    * Iterator
+    * [Iterator](./behavioral/iterator): Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
     * Mediator
     * [Memento]():
     * Observer
