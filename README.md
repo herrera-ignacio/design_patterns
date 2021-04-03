@@ -48,7 +48,7 @@ I want to address the following points in this project:
     * [Flyweight](./structural/flyweight): Use sharing to support large numbers of fine-grained objects efficiently.
     * [Proxy (or Surrogate)](./structural/proxy): Provide a surrogate or placeholder for another object to control access to it.
 
-* [Behavioral Patterns](./behavioral/behavioral-patterns.md)
+* [Behavioral Patterns](./behavioral)
     * Chain of Responsibility
     * Command
     * Interpreter
