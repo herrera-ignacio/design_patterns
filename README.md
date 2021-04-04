@@ -53,7 +53,7 @@ I want to address the following points in this project:
     * [Command](./behavioral/command): Encapsulate the request as an object, thereby letitng you parameterize clients with different requests, queue or log requests, and support undoable operations.
     * [Interpreter](./behavioral/interpreter): Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
     * [Iterator](./behavioral/iterator): Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
-    * Mediator
+    * [Mediator](./behavioral/mediator): Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.
     * [Memento]():
     * Observer
     * State
