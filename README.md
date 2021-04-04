@@ -55,8 +55,8 @@ I want to address the following points in this project:
     * [Iterator](./behavioral/iterator): Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
     * [Mediator](./behavioral/mediator): Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.
     * [Memento](./behavioral/memento): Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
-    * Observer
-    * State
+    * [Observer](./behavioral/observer): Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+    * [State](./behavioral/state):
     * Strategy
     * Template Method
     * Visitor
