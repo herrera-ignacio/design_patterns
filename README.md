@@ -59,9 +59,9 @@ I want to address the following points in this project:
     * [State](./behavioral/state): Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
     * [Strategy](./behavioral/strategy): Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
     * [Template Method](./behavioral/template-method): Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
-    * Visitor
+    * [Visitor](./behvioral/visitor): Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates.
 
-### Selecting a design pattern
+## Selecting a design pattern
 
 1. Study patterns' intents and how they interrelate.
 
@@ -69,7 +69,7 @@ I want to address the following points in this project:
 
 3. Consider what should be variable in your design.
 
-#### Causes of redesign
+### Causes of redesign
 
 * __Creating an object by specifying a class explicitly__. This commits you to a particular implementation instead of a particular interface. To avoid it, create objects indirectly.
     * Design patterns: _Abstract Factory, Factory Method, Prototype._
@@ -96,7 +96,7 @@ I want to address the following points in this project:
     * Design patterns: _Adapter, Decorator, Visitor_.
 
 
-#### Aspects that can vary
+### Aspects that can vary
 
 | Purpose    	| Design Pattern          	| Aspect(s) That Can Vary                                                                     	|
 |------------	|-------------------------	|---------------------------------------------------------------------------------------------	|
@@ -124,7 +124,7 @@ I want to address the following points in this project:
 |            	| Template Method         	| Steps of an algorithm.                                                                      	|
 |            	| Visitor                 	| Operations that can be applied to object(s) without changing their class(es).               	|
 
-### :fire: Status
+## :fire: Status
 
 :heavy_check_mark: Completed all Object-Oriented Design Patterns from GoF
 
