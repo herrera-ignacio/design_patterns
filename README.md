@@ -23,13 +23,13 @@ I want to address the following points in this project:
 | [Abstract Factory](./creational/abstract-factory) | [Adapter](./structural/adapter) | [Chain of Responsibility](./behavioral/chain-of-responsibility) |
 | [Builder](./creational/builder) | [Bridge](./structural/bridge) | [Command](./behavioral/command) |
 | [Factory Method](./creational/factory-method) | [Composite](./structural/composite) | [Interpreter](./behavioral/interpreter) |
-| [Prototype](./creational/prototype) | [Decorator](./structural/decorator) | [Iterator](./behavioral/iterator/iterator.md) |
-| [Singleton](./creational/singleton) | [Facade](./structural/facade) | [Mediator](./behavioral/mediator/mediator.md) |
-| | [Flyweight](./structural/flyweight) | [Memento](./behavioral/memento/memento.md) |
-| | [Proxy](./structural/proxy) | [Observer](./behavioral/observer/observer.md) |
-| | | [State](./behavioral/state/state.md) |
-| | | [Strategy](./behavioral/strategy/strategy.md) |
-| | | [Template Method](./behavioral/template-method/template-method.md) |
+| [Prototype](./creational/prototype) | [Decorator](./structural/decorator) | [Iterator](./behavioral/iterator |
+| [Singleton](./creational/singleton) | [Facade](./structural/facade) | [Mediator](./behavioral/mediator) |
+| | [Flyweight](./structural/flyweight) | [Memento](./behavioral/memento) |
+| | [Proxy](./structural/proxy) | [Observer](./behavioral/observer) |
+| | | [State](./behavioral/state) |
+| | | [Strategy](./behavioral/strategy) |
+| | | [Template Method](./behavioral/template-method) |
 | | | [Visitor](./behavioral/visitor) |
 
 * [Creational Patterns](./creational)
@@ -57,7 +57,7 @@ I want to address the following points in this project:
     * [Memento](./behavioral/memento): Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
     * [Observer](./behavioral/observer): Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
     * [State](./behavioral/state): Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
-    * Strategy
+    * [Strategy](./behavioral/strategy): Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
     * Template Method
     * Visitor
 
