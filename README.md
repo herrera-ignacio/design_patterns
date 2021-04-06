@@ -124,6 +124,12 @@ I want to address the following points in this project:
 |            	| Template Method         	| Steps of an algorithm.                                                                      	|
 |            	| Visitor                 	| Operations that can be applied to object(s) without changing their class(es).               	|
 
+| -     	| -      	| -                                            	| Purpose                                                            	| -                                                                                         	|
+|-------	|--------	|----------------------------------------------	|--------------------------------------------------------------------	|-------------------------------------------------------------------------------------------	|
+| -     	| -      	| Creational                                   	| Structural                                                         	| Behavioral                                                                                	|
+| Scope 	| Class  	| Factory Method                               	| Adapter (class)                                                    	| Interpreter Template Method                                                               	|
+| -     	| Object 	| Abstract Factory Builder Prototype Singleton 	| Adapter (object) Bridge Composite Decorator Facade Flyweight Proxy 	| Chain of Responsibility Command Iterator Mediator Memento Observer State Strategy Visitor 	|
+
 ## :fire: Status
 
 :heavy_check_mark: Completed all Object-Oriented Design Patterns from GoF
