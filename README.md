@@ -127,8 +127,8 @@ I want to address the following points in this project:
 | -     	| -      	| -                                            	| Purpose                                                            	| -                                                                                         	|
 |-------	|--------	|----------------------------------------------	|--------------------------------------------------------------------	|-------------------------------------------------------------------------------------------	|
 | -     	| -      	| Creational                                   	| Structural                                                         	| Behavioral                                                                                	|
-| Scope 	| Class  	| Factory Method                               	| Adapter (class)                                                    	| Interpreter Template Method                                                               	|
-| -     	| Object 	| Abstract Factory Builder Prototype Singleton 	| Adapter (object) Bridge Composite Decorator Facade Flyweight Proxy 	| Chain of Responsibility Command Iterator Mediator Memento Observer State Strategy Visitor 	|
+| Scope 	| Class  	| Factory Method                               	| Adapter (class)                                                    	| Interpreter, Template Method                                                               	|
+| -     	| Object 	| Abstract Factory, Builder, Prototype, Singleton 	| Adapter (object), Bridge, Composite, Decorator, Facade, Flyweight, Proxy 	| Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Visitor 	|
 
 ## :fire: Status
 
