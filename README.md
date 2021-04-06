@@ -133,5 +133,3 @@ I want to address the following points in this project:
 :point_right: Refactor Javascript examples using Typescript
 
 :point_right: C++ examples
-
-:point_right: Rearrange folder structure
