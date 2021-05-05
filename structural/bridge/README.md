@@ -68,6 +68,6 @@ But this approach has two drawbacks:
 
 The Bridge pattern addresses these problems by putting the `Window` abstraction and its implementation in separate class hierarchies. There is one class hierarchy for window interfaces (`Window`, `IconWindow`, `TransientWindow`) and a separate hierarchy for platform-specific window impemetations, with `WindowImp` as its root. The `XWindowImp` subclass, for example, provides an implementation based on the X Window System.
 
-![bridge solution](./bridge-solution)
+![bridge solution](./bridge-solution.png)
 
 All operations on `Window` subclasses are implemented in terms of abstract operations from the `WindowImp` interface. This decouples the window abstractions from the various platform-specific implementations. We refer to the relationship between `Window` and `WindowImp` as a __bridge__, because it bridges the abstraction and its implementation, letting them vary independently.
