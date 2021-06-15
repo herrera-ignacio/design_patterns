@@ -23,7 +23,7 @@ I want to address the following points in this project:
 | [Abstract Factory](./creational/abstract-factory) | [Adapter](./structural/adapter) | [Chain of Responsibility](./behavioral/chain-of-responsibility) |
 | [Builder](./creational/builder) | [Bridge](./structural/bridge) | [Command](./behavioral/command) |
 | [Factory Method](./creational/factory-method) | [Composite](./structural/composite) | [Interpreter](./behavioral/interpreter) |
-| [Prototype](./creational/prototype) | [Decorator](./structural/decorator) | [Iterator](./behavioral/iterator |
+| [Prototype](./creational/prototype) | [Decorator](./structural/decorator) | [Iterator](./behavioral/iterator) |
 | [Singleton](./creational/singleton) | [Facade](./structural/facade) | [Mediator](./behavioral/mediator) |
 | | [Flyweight](./structural/flyweight) | [Memento](./behavioral/memento) |
 | | [Proxy](./structural/proxy) | [Observer](./behavioral/observer) |
