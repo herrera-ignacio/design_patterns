@@ -9,3 +9,8 @@
 
 # Python examples
 **/*.swp
+
+# Java examples
+.gradle
+*.class
+

@@ -1,9 +1,11 @@
 # Creational Patterns
 
-* Definition
-* Study case
-  * C++ implementation
-* Discussion of Creational Patterns
+- [Creational Patterns](#creational-patterns)
+  - [Definition](#definition)
+  - [Study case](#study-case)
+    - [C++ Base implementation](#c-base-implementation)
+  - [Discussion of Creational Patterns](#discussion-of-creational-patterns)
+    - [Examples](#examples)
 
 ## Definition
 

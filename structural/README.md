@@ -1,10 +1,10 @@
 # Structural Patterns
 
-* Definition
-* Discussion on Structural Patterns
-  * Adapter versus Bridge
-  * Composite versus Decorator versus Proxy
-
+- [Structural Patterns](#structural-patterns)
+  - [Definition](#definition)
+  - [Discussion on Structural Patterns](#discussion-on-structural-patterns)
+    - [Adapter versus Bridge](#adapter-versus-bridge)
+    - [Composite versus Decorator versus Proxy](#composite-versus-decorator-versus-proxy)
 
 ## Definition
 

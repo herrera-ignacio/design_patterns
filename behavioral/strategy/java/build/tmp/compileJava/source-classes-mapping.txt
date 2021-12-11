@@ -1,0 +1,22 @@
+Squeak.java
+ Squeak
+FlyNoWay.java
+ FlyNoWay
+FlyBehavior.java
+ FlyBehavior
+Quack.java
+ Quack
+FlyWithWings.java
+ FlyWithWings
+MiniDuckSimulator.java
+ MiniDuckSimulator
+Duck.java
+ Duck
+FlyRocketPowered.java
+ FlyRocketPowered
+MallardDuck.java
+ MallardDuck
+MuteQuack.java
+ MuteQuack
+QuackBehavior.java
+ QuackBehavior
