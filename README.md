@@ -1,6 +1,18 @@
 # Design Patterns
 
+- [Design Patterns](#design-patterns)
+  - [:pushpin: Description](#pushpin-description)
+  - [:books: Bibliography](#books-bibliography)
+  - [:clipboard: Design Pattern Catalog](#clipboard-design-pattern-catalog)
+    - [Aspects that can vary](#aspects-that-can-vary)
+    - [Scope & Purpose](#scope--purpose)
+  - [:wrench: Selecting a design pattern](#wrench-selecting-a-design-pattern)
+  - [:mag: Causes of Redesign](#mag-causes-of-redesign)
+  - [:fire: Status](#fire-status)
+
 ## :pushpin: Description
+
+> [What is a Design Pattern?](./introduction/design-pattern.md)
 
 Theory and practical examples of design patterns in multiple programming languages (C++, Javascript and Python).
 
@@ -15,8 +27,6 @@ I want to address the following points in this project:
 * :closed_book: [Gang of Four - Cheatsheet](./GangOfFour-Cheatsheet.pdf)
 
 ## :clipboard: Design Pattern Catalog
-
-* [What is a Design Pattern?](./introduction/design-pattern.md)
 
 | [Creational](./creational) | [Structural](./structural) | [Behavioral](./structural/behavioral-patterns) |
 |------------------	|------------	|------------	|
@@ -61,41 +71,6 @@ I want to address the following points in this project:
     * [Template Method](./behavioral/template-method): Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
     * [Visitor](./behvioral/visitor): Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates.
 
-## Selecting a design pattern
-
-1. Study patterns' intents and how they interrelate.
-
-2. Examine causes of redesign.
-
-3. Consider what should be variable in your design.
-
-### Causes of redesign
-
-* __Creating an object by specifying a class explicitly__. This commits you to a particular implementation instead of a particular interface. To avoid it, create objects indirectly.
-    * Design patterns: _Abstract Factory, Factory Method, Prototype._
-
-* __Dependence on specific operations__.  When you specify a particular operation, you commit to one way of satisfying a request. By avoiding hard-coded requests, you can make it easier to change the way a request gets satisfied both at compile-time and at run-time.
-    * Design patterns: _Chain of Responsibility, Command_.
-
-* __Dependence on hardware and software platform__. Software that depends on a particular platform will be harder to port to other platforms. It may even be difficult to keep it up to date on its native platform. It's important therefore to design your system to limit its platform dependencies.
-    * Design patterns: _Abstract Factory, Bridge_.
-
-* __Dependence on object representations or implementations__. Clients that know how an object is represented, stored, located, or implemented might need to be changed when the object changes. Hiding this information from clients keeps changes from cascading.
-    * Design patterns: _Abstract Factory, Bridge, Memento, Proxy_.
-
-* __Algorithmic dependencies__. Algorithms are often extended, optimized, and replaced during development and reuse. Objects that depend on an algorithm will have to change when the algorithm changes. Therefore algorithms that are likely to change should be isolated.
-    * Design patterns: _Builder, Iterator, Strategy, Template Method, Visitor_.
-
-* __Tight coupling__. Classes that are tightly coupled are hard to reuse in isolation, since they depend on each other. Tight coupling leads to monolithic systems, where you can't change or remove a class without understanding and changing many other classes. The system becomes a dense mass that's hard to learn, port, and maintain. Loose coupling increases portabiliy and makes that a system can be learned, ported, modified, and extended more easily.
-    * Design patterns: _Abstract Factory, Bridge, Chain of Responsibility, Command, Facade, Mediator, Observer_.
-
-* __Extending functionality by subclassing__. Every new class has a fixed implementation overhead (initialization, finalization, etc.). Defining a subclass also requires an in-depth understanding of the parent class. Subclassing can lead to an explosion of classes, because you might have to introduce many new subclasses for even a simple extension. Object composition in general and delegation in particular provide flexible alternatives to inheritance for combining behavior. On the other hand, heavy use of object composition can make designs harder to understand. Many design patterns produce designs in which you can introduce customized functionality just by defining one subclass and composing its instances with existing ones.
-    * Design patterns: _Bridge, Chain of Responsibility, Composite, Decorator, Observer, Strategy_.
-
-* __Inability to alter classes conveniently__. Sometimes you have to modify a class that can't be modified conveniently.
-    * Design patterns: _Adapter, Decorator, Visitor_.
-
-
 ### Aspects that can vary
 
 | Purpose    	| Design Pattern          	| Aspect(s) That Can Vary                                                                     	|
@@ -124,11 +99,47 @@ I want to address the following points in this project:
 |            	| Template Method         	| Steps of an algorithm.                                                                      	|
 |            	| Visitor                 	| Operations that can be applied to object(s) without changing their class(es).               	|
 
+### Scope & Purpose
+
 | -     	| -      	| -                                            	| Purpose                                                            	| -                                                                                         	|
 |-------	|--------	|----------------------------------------------	|--------------------------------------------------------------------	|-------------------------------------------------------------------------------------------	|
 | -     	| -      	| Creational                                   	| Structural                                                         	| Behavioral                                                                                	|
 | Scope 	| Class  	| Factory Method                               	| Adapter (class)                                                    	| Interpreter, Template Method                                                               	|
 | -     	| Object 	| Abstract Factory, Builder, Prototype, Singleton 	| Adapter (object), Bridge, Composite, Decorator, Facade, Flyweight, Proxy 	| Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Visitor 	|
+
+## :wrench: Selecting a design pattern
+
+1. Study patterns' intents and how they interrelate.
+
+2. Examine causes of redesign.
+
+3. Consider what should be variable in your design.
+
+## :mag: Causes of Redesign
+
+* __Creating an object by specifying a class explicitly__. This commits you to a particular implementation instead of a particular interface. To avoid it, create objects indirectly.
+    * Design patterns: _Abstract Factory, Factory Method, Prototype._
+
+* __Dependence on specific operations__.  When you specify a particular operation, you commit to one way of satisfying a request. By avoiding hard-coded requests, you can make it easier to change the way a request gets satisfied both at compile-time and at run-time.
+    * Design patterns: _Chain of Responsibility, Command_.
+
+* __Dependence on hardware and software platform__. Software that depends on a particular platform will be harder to port to other platforms. It may even be difficult to keep it up to date on its native platform. It's important therefore to design your system to limit its platform dependencies.
+    * Design patterns: _Abstract Factory, Bridge_.
+
+* __Dependence on object representations or implementations__. Clients that know how an object is represented, stored, located, or implemented might need to be changed when the object changes. Hiding this information from clients keeps changes from cascading.
+    * Design patterns: _Abstract Factory, Bridge, Memento, Proxy_.
+
+* __Algorithmic dependencies__. Algorithms are often extended, optimized, and replaced during development and reuse. Objects that depend on an algorithm will have to change when the algorithm changes. Therefore algorithms that are likely to change should be isolated.
+    * Design patterns: _Builder, Iterator, Strategy, Template Method, Visitor_.
+
+* __Tight coupling__. Classes that are tightly coupled are hard to reuse in isolation, since they depend on each other. Tight coupling leads to monolithic systems, where you can't change or remove a class without understanding and changing many other classes. The system becomes a dense mass that's hard to learn, port, and maintain. Loose coupling increases portabiliy and makes that a system can be learned, ported, modified, and extended more easily.
+    * Design patterns: _Abstract Factory, Bridge, Chain of Responsibility, Command, Facade, Mediator, Observer_.
+
+* __Extending functionality by subclassing__. Every new class has a fixed implementation overhead (initialization, finalization, etc.). Defining a subclass also requires an in-depth understanding of the parent class. Subclassing can lead to an explosion of classes, because you might have to introduce many new subclasses for even a simple extension. Object composition in general and delegation in particular provide flexible alternatives to inheritance for combining behavior. On the other hand, heavy use of object composition can make designs harder to understand. Many design patterns produce designs in which you can introduce customized functionality just by defining one subclass and composing its instances with existing ones.
+    * Design patterns: _Bridge, Chain of Responsibility, Composite, Decorator, Observer, Strategy_.
+
+* __Inability to alter classes conveniently__. Sometimes you have to modify a class that can't be modified conveniently.
+    * Design patterns: _Adapter, Decorator, Visitor_.
 
 ## :fire: Status
 
