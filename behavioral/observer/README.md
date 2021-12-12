@@ -1,10 +1,20 @@
 # Observer
 
-Also known as _Dependents_, _Publish-Subscribe_.
+> Also known as _Publisher-Subscriber_.
+
+- [Observer](#observer)
+  - [Intent](#intent)
+  - [Applicability](#applicability)
+  - [Collaborations](#collaborations)
+    - [Change-Manager Implementation](#change-manager-implementation)
+  - [Consequences](#consequences)
+  - [Related Patterns](#related-patterns)
+  - [Implementation](#implementation)
+  - [Motivation](#motivation)
 
 ## Intent
 
-Define a one-to-many dependency between objects so that when object changes state, all its dependents are notified and updated automatically.
+Define a one-to-many relationship between objects so that when the state of one object changes, all its dependents are notified and updated automatically.
 
 ## Applicability
 
