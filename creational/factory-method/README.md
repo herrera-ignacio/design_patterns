@@ -1,5 +1,14 @@
 # Factory Method
 
+- [Factory Method](#factory-method)
+  - [Intent](#intent)
+  - [Applicability](#applicability)
+  - [Collaborations](#collaborations)
+  - [Consequences](#consequences)
+  - [Related Patterns](#related-patterns)
+  - [Implementation](#implementation)
+  - [Motivation](#motivation)
+
 ## Intent
 
 Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
