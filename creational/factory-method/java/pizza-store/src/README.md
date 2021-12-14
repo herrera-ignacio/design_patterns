@@ -1,4 +1,4 @@
 # Pizza Store
 
 * v1: Factory class
-* v2: Factory method
+* v2: Factory methods
