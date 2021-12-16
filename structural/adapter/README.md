@@ -2,6 +2,17 @@
 
 Also known as __Wrapper__.
 
+- [Adapter](#adapter)
+  - [Intent](#intent)
+  - [Applicability](#applicability)
+  - [Collaborations](#collaborations)
+  - [Consequences](#consequences)
+    - [Class Adapter](#class-adapter)
+    - [Object Adapter](#object-adapter)
+  - [Related Patterns](#related-patterns)
+  - [Implementation](#implementation)
+  - [Motivation](#motivation)
+
 ## Intent
 
 Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.

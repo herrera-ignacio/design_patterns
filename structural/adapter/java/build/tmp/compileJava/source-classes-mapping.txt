@@ -1,0 +1,12 @@
+turkey/DuckTestDrive.java
+ turkey.DuckTestDrive
+turkey/MallardDuck.java
+ turkey.MallardDuck
+turkey/TurkeyAdapter.java
+ turkey.TurkeyAdapter
+turkey/Duck.java
+ turkey.Duck
+turkey/Turkey.java
+ turkey.Turkey
+turkey/WildTurkey.java
+ turkey.WildTurkey

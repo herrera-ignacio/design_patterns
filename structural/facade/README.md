@@ -1,8 +1,19 @@
 # Facade
 
+- [Facade](#facade)
+  - [Intent](#intent)
+  - [Applicability](#applicability)
+  - [Collaborations](#collaborations)
+  - [Consequences](#consequences)
+  - [Related Patterns](#related-patterns)
+  - [Implementation](#implementation)
+  - [Motivation](#motivation)
+
 ## Intent
 
-Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
+Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that **makes the subsystem easier to use** and **promotes a weak coupling** with its clients.
+
+> It's aligned with the *Least Knowledge* design principle: talk only to your immediate friends. 
 
 ## Applicability
 
@@ -26,9 +37,9 @@ Use the _Facade_ pattern when:
 
 The _Facade_ patterns offers the following benefits:
 
-1. __It shields clients from subsystem components__, thereby reducing the number of objects that clients deal with and making the subsystem easier to use.
+1. __It shields clients from subsystem complexity__, thereby reducing the number of objects that clients deal with and making the subsystem easier to use.
 
-2. __It promotes weak coupling between the subsystem and its clients__. Often components in a subsystem are strongly coupled. Weak coupling lets you vary the components of the subsystem without affecting its clients. Facade help layer a system and the dependencies between objects. They can eliminate complex or circular dependencies. Reducing compilation dependencies with facades can limit the recompilation needed for a small change in an important subsystem.
+2. __It promotes weak coupling between the subsystem components and the clients__. Often components in a subsystem are strongly coupled. Weak coupling lets you vary the components of the subsystem without affecting its clients. Facade help layer a system and the dependencies between objects. They can eliminate complex or circular dependencies. Reducing compilation dependencies with facades can limit the recompilation needed for a small change in an important subsystem.
 
 3. __It doesn't prevent applications from using subsystem classes if they need to__, thus you can choose between ease of use and generality.
 
@@ -39,6 +50,8 @@ The _Facade_ patterns offers the following benefits:
 * _Mediator_ is similar to _Facade_ in that it abstracts functionality of existing classes. However, _Mediator_'s purpose is to abstract arbitrary communication between colleague objects, often centralizing functionality that doesn't belong in any of them. A mediator's colleagues are aware of and communicate with the mediator instead of communicating with each other directly. In contrast, a facade merely abstracts the interface to subsystem objects to make them easier to use, it doesn't define new functionality, and subsystem calsses don't know about it.
 
 * Usually only one _Facade_ object is required. Thus _Facade_ objects are often _Singletons_.
+
+* *Adapter* may wrap multiple classes as Facades do, but a facade's intent is to simplify, while an adapter's is to convert the interface to something different.
 
 ## Implementation
 
