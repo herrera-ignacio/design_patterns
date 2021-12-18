@@ -27,7 +27,7 @@ I want to address the following points in this project:
 
 ## :clipboard: Design Pattern Catalog
 
-| [Creational](./creational) | [Structural](./structural) | [Behavioral](./structural/behavioral-patterns) |
+| [Creational](./creational) | [Structural](./structural) | [Behavioral](./behavioral) |
 |------------------	|------------	|------------	|
 | [Abstract Factory](./creational/abstract-factory) | [Adapter](./structural/adapter) | [Chain of Responsibility](./behavioral/chain-of-responsibility) |
 | [Builder](./creational/builder) | [Bridge](./structural/bridge) | [Command](./behavioral/command) |
