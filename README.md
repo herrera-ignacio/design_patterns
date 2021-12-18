@@ -14,11 +14,10 @@
 
 > [What is a Design Pattern?](./introduction/design-pattern.md)
 
-Theory and practical examples of design patterns in multiple programming languages (C++, Javascript and Python).
-
 I want to address the following points in this project:
 * What are design patterns and why are they important?
-* Real-life working examples
+* In-depth theory and example use cases.
+* Real-life working examples (C++, Java, Python, JavaScript)
 
 ## :books: Bibliography
 
