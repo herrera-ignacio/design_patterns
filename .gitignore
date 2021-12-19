@@ -13,4 +13,5 @@
 # Java examples
 .gradle
 *.class
+*.jar
 
