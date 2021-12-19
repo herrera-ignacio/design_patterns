@@ -2,6 +2,15 @@
 
 Also known as __Surrogate__.
 
+- [Proxy](#proxy)
+  - [Intent](#intent)
+  - [Applicability](#applicability)
+  - [Collaborations](#collaborations)
+  - [Consequences](#consequences)
+  - [Related Patterns](#related-patterns)
+  - [Implementation](#implementation)
+  - [Motivation](#motivation)
+
 ## Intent
 
 Provide a surrogate or placeholder for another object to control access to it
@@ -12,14 +21,17 @@ Proxy is applicable whenever there is a need for a more versatile reference to a
 
 * __Remote proxy__ provides a local representative for an object in a different address space.
 
-* __Virtual proxy__ creates expensive objects on demand.
+* __Virtual proxy__ creates expensive objects on demand. It can serve as a **caching proxy** or a **copy-on-write proxy** (i.e., deferring the copy of an object until it is required).
 
 * __Protection proxy__ controls access to the original object (useful for objects with different access rights).
+  * **Firewall proxy**: controls access to a set of network resources.
 
 * __Smart reference__ is a replacement for a bare pointer that performs additional actions to operating system objects.
     * Counting number of references to the real object so that it can be freed automatically (_Smart Pointers_).
     * Loading a persistent object into memory when it's first referenced.
     * Checking that the real object is locked before it's accessed to ensure immutability.
+
+* **Synchronization proxy**: Provides safe access to a subject from multiple threads.
 
 ## Collaborations
 
@@ -45,9 +57,14 @@ To make copy-on-write work, the subjcet must be reference counted. Copying the p
 
 ## Related Patterns
 
-* _Adapter_: An adapter provides a different interface to the object it adapts. In contrast, a proxy provides the same interface as its subject. However, a proxy used for access protection might refuse to perform an operation that the subject will perform, so its interface may be effectively a subset of the subject's.
+| Pattern   	| Description                                                   	|
+|-----------	|---------------------------------------------------------------	|
+| Adapter   	| Wraps another object and provides a different interface to it 	|
+| Decorator 	| Wraps another object and provides additional behavior to it   	|
+| Facade    	| Wraps a bunch of objects to simplify their interface          	|
+| Proxy     	| Wraps another object and provides control access to it        	|
 
-* _Decorator_: Although decorators can have similar implementations as proxies, decorators have a different purpose. A decorator adds one or more responsibilities to an object, whereas a proxy controls access to an object.
+> _Adapter_: An adapter provides a different interface to the object it adapts. In contrast, a proxy provides the same interface as its subject. However, a proxy used for access protection might refuse to perform an operation that the subject will perform, so its interface may be effectively a subset of the subject's.
 
 Proxies vary in the degree to which they are implemented like a decorator. A protection proxy might be implemented exactly like a decorator. On the other hand, a remote proxy will not contain a direct reference to its real subject but only an indirect reference, such as "host ID and local address on host". A virtual proxy will start off with an indirect reference such as a file name but will eventually obtain and use a direct reference.
 
