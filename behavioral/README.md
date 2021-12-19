@@ -1,6 +1,8 @@
 # Behavioral Patterns
 
-Behavioral patterns are concerned with algorithms and the assignment of responsibilities between objects, they describe patterns ofcommunication between them. These patterns characterize complex control flow that's difficult to follow at run-time. They shift your focus away from flow of control to let you concentrate just on the way objects are interconnected.
+> Behavioral patterns are concerned with algorithms and the assignment of responsibilities between objects, they describe patterns of communication between them.
+ 
+These patterns characterize complex control flow that's difficult to follow at run-time. They shift your focus away from flow of control to let you concentrate just on the way objects are interconnected.
 
 Behavioral _class_ patterns use _inheritance_ to distribute behavior between classes (_Template Method_ and _Interpreter_).
 
