@@ -146,10 +146,10 @@ I want to address the following points in this project:
 
 :heavy_check_mark: Javascript examples
 
+:point_right: Go examples
+
 :point_right: Refactor Javascript examples using Typescript
 
 :point_right: Java examples
-
-:point_right: Go examples
 
 :point_right: C++ examples
